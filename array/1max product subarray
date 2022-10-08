@@ -1,0 +1,60 @@
+Maximum Product Subarray
+You are given an array A consisting of N integers. They could be negative, positive or even zero. Find the subarray which has the maximum product.
+
+**NOTE: ** You need to complete the given function. The input and printing of output will be handled by the driver code.
+
+Input Format:
+The first line contains the number of test cases.
+
+For each test case: The first line has the value of N.
+
+The next line contains N space-separated integers of array A.
+
+Output Format:
+For each test case return the maximum product.
+
+Example 1:
+Input:
+
+1
+5
+3 -2 -3 0 2
+Output:
+
+18
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main
+{
+       public static int maxProductS(int a[]) {
+	   int n= a.length, currmax  = a[0] , maxi = a[0], currmin = a[0];
+               for(int i=1;i<n;i++){
+                       int temp = currmax;
+
+                       currmax = Math.max(a[i] , Math.max(a[i] * currmax ,  a[i] * currmin));
+                       currmin = Math.min(a[i] , Math.min(a[i] * temp , a[i] * currmin));
+                       maxi = Math.max( maxi , currmax);
+               }
+               return maxi;
+	}
+
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		//your code here
+                Scanner sc = new Scanner(System.in);
+                int t= sc.nextInt();
+                while(t-->0){
+                        
+                        int n = sc.nextInt();
+                        int arr[] = new int[n];
+                        for(int i=0;i<n;i++){
+                                arr[i] = sc.nextInt();
+                        }
+                        System.out.println(maxProductS(arr));
+                        
+                }
+	}
+}
