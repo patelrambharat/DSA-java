@@ -42,5 +42,6 @@ public class Main {
             Car c4= new Car();
             c4.setPrice(20000);
             System.out.println(c4.getPrice());
+            System
     }
 }
