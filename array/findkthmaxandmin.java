@@ -2,7 +2,7 @@ import java.util.*;
 public class findkthmaxandmin {
     
     public static int findkthmin(int arr[] , int start , int end, int k){
-        int n = end +1;
+        // int n = end +1;
         Arrays.sort(arr);
         return arr[k-1];
     }
