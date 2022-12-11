@@ -1,4 +1,4 @@
-package oops.oops_1;
+package oops.oops2;
 class Car{
     //data member  
     String moduleName = "Automatic";
@@ -8,7 +8,7 @@ class Car{
     //constructor -->a cons has a special method which is same name as class 
     //whenever we created an object it called the constructor , means it automaticaly called itself 
     //at the time of object creation 
-    Car(){
+    Car(){             //constructor overriding 
 
         //default cons --> do'nt have any argument
         System.out.println("I am a constructor");
@@ -16,23 +16,33 @@ class Car{
         color ="Not specified";
         price = 0;
     }
-    Car(String givenModulename, String givencolor, int givenprice){
-        //parameterised constructor --> where we already have argument
-        System.out.println("this is a parameterised cons");
-        moduleName = givenModulename;
-        color = givencolor;
-        price = givenprice;
-    }
-    Car(String givenmoduleName , String givencolor){
-        System.out.println("this is a parameterised cons");
-        moduleName = givenmoduleName;
-        color = givencolor;
-        price = 600000;
-    }
+    // Car(String givenModulename, String givencolor, int givenprice){
+    //     //parameterised constructor --> where we already have argument
+    //     System.out.println("this is a parameterised cons");
+    //     moduleName = givenModulename;
+    //     color = givencolor;
+    //     price = givenprice;
+    // }
+    // Car(String givenmoduleName , String givencolor){
+    //     System.out.println("this is a parameterised cons");
+    //     moduleName = givenmoduleName;
+    //     color = givencolor;
+    //     price = 600000;
+    // }
 
     //class method 
     void drive(){
         System.out.println("car is running");
+        //now here I learn method overloading 
+
+    }
+    void drive(boolean isunlock){
+        if(isunlock){
+            System.out.println("can drive");
+        }
+        else{
+            System.out.println("can'nt drive");
+        }
     }
     void lock(){
         System.out.println("car is lock");
@@ -49,7 +59,7 @@ class Car{
         return price;
     }
 }
-public class oops1 {
+public class oops2 {
     public static void main(String args[]){
             // Car c1= new Car();
             //  // //c1 -> reference variable or object , Car --> type of car class 
@@ -67,13 +77,16 @@ public class oops1 {
             // c3.setPrice(20000);           ///to remove this we can use getter and setter -ve price type
             // c3.getPrice();   //updating the data member
             // System.out.println(c3.moduleName +" "+ c3.color+" "+ c3.price);
-            Car c4 = new Car();
-            System.out.println(c4.price); 
-            Car c5 = new Car("Automatic ", "red", 10000);
-            System.out.println(c5.price);
-            // System.out.println(c4.price);
-            Car c6 = new Car("manual", "green");
-            System.out.println(c6.moduleName +" "+ c6.color +" "+c6.price);
+            // Car c4 = new Car();
+            // System.out.println(c4.price); 
+            // Car c5 = new Car("Automatic ", "red", 10000);
+            // System.out.println(c5.price);
+            // // System.out.println(c4.price);
+            // Car c6 = new Car("manual", "green");
+            // System.out.println(c6.moduleName +" "+ c6.color +" "+c6.price);
+            Car c7  = new Car();
+            c7.drive();
+            c7.drive(false);
 
             
             
