@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lacture1Inheritance/Lacture1Inheritance.iml" filepath="$PROJECT_DIR$/Lacture1Inheritance/Lacture1Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture1Oopsintropart/Lecture1Oopsintropart.iml" filepath="$PROJECT_DIR$/Lecture1Oopsintropart/Lecture1Oopsintropart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture1PolymorphismIntro/Lecture1PolymorphismIntro.iml" filepath="$PROJECT_DIR$/Lecture1PolymorphismIntro/Lecture1PolymorphismIntro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture2Abstraction/Lecture2Abstraction.iml" filepath="$PROJECT_DIR$/Lecture2Abstraction/Lecture2Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture2AccessModifiers/Lecture2AccessModifiers.iml" filepath="$PROJECT_DIR$/Lecture2AccessModifiers/Lecture2AccessModifiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture2Encapsulation/Lecture2Encapsulation.iml" filepath="$PROJECT_DIR$/Lecture2Encapsulation/Lecture2Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture4DesignPatternIBuilder/Lecture4DesignPatternIBuilder.iml" filepath="$PROJECT_DIR$/Lecture4DesignPatternIBuilder/Lecture4DesignPatternIBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture4DesignPatternIsingleton/Lecture4DesignPatternIsingleton.iml" filepath="$PROJECT_DIR$/Lecture4DesignPatternIsingleton/Lecture4DesignPatternIsingleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture4DesingPatternI/Lecture4DesingPatternI.iml" filepath="$PROJECT_DIR$/Lecture4DesingPatternI/Lecture4DesingPatternI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture5DesignPatternChainofRespo/Lecture5DesignPatternChainofRespo.iml" filepath="$PROJECT_DIR$/Lecture5DesignPatternChainofRespo/Lecture5DesignPatternChainofRespo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture5DesignPatternIIProxyPattern/Lecture5DesignPatternIIProxyPattern.iml" filepath="$PROJECT_DIR$/Lecture5DesignPatternIIProxyPattern/Lecture5DesignPatternIIProxyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture5DesignPatternIIfacade/Lecture5DesignPatternIIfacade.iml" filepath="$PROJECT_DIR$/Lecture5DesignPatternIIfacade/Lecture5DesignPatternIIfacade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture5DesignPatternIIstructural/Lecture5DesignPatternIIstructural.iml" filepath="$PROJECT_DIR$/Lecture5DesignPatternIIstructural/Lecture5DesignPatternIIstructural.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture6DesignPatternObserver/Lecture6DesignPatternObserver.iml" filepath="$PROJECT_DIR$/Lecture6DesignPatternObserver/Lecture6DesignPatternObserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object-Oriented-Design-main.iml" filepath="$PROJECT_DIR$/Object-Oriented-Design-main.iml" />
+    </modules>
+  </component>
+</project>
