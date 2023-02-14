@@ -1,0 +1,19 @@
+INTRO TO DSA - MODULE 2
+
+Introduction (3rd February)
+
+What are functions ?
+Why do we use functions ? (modularity, easy debugging and reusability of code)
+Return type, arguments and analysis of functions
+Context associated with functions
+Flow of execution of functions
+Be clear that the moment a function starts running,its context is created and the context starts playing.When a function call is made, the caller context pauses at that line and new context for the called function starts running. Once the context of the called function is destroyed we come back to the paused location in the caller context and the caller context starts playing.
+What is a stack ? (LIFO data structure)
+What is call stack ?
+What is recursion ?
+Why do we study recursion ? (Divide and Conquer Technique)
+Examples of divide and conquer in real life
+Recursion as black magic as you just have to call smaller subproblems and believe them to give the answers  and then form the answer to your current problem. But you also have to write the base case.
+Parts of Recursion - Base Case, Relationship between bigger and smaller subproblem
+Stack Overflow and importance of base case
+Print Acciojob n times
